@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');  
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800;500;800&display=swap');
+
 
 * {
     margin: 0;
@@ -50,3 +52,55 @@ header ul {
     position: relative;
     display: flex;
 }
+
+header ul li {
+    list-style: none;
+}
+
+header ul li a {
+    display: inline-block;
+    color: var(--corSecundaria);
+    font-size: 20px;
+    font-weight: 800;
+    text-decoration: none;
+    padding: 5px;
+    margin-left: 40px;
+}
+
+header ul li a:hover {
+    background-color: var(--corPrimaria);
+    color: var(--corTerciaria);
+    border-radius: 10px;
+}
+
+.conteudo {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.conteudo .textoPrincipal {
+    position: relative;
+    max-width: 600px;
+}
+
+.conteudo .textoPrincipal h2 {
+    color: var(--corSecundaria);
+    font-size: 2.5em;
+    line-height: 1.5em;
+    font-weight: 400;
+}
+
+.conteudo .textoPrincipal h2 span {
+    cor: var(--corPrimaria);
+    font-size: 1.2em;
+    font-weight: 900;
+}
+
+.conteudo .textoPrincipal p {
+    color: var(--corSecundaria);
+}
+
+    
